@@ -49,12 +49,12 @@ export default function Navbar() {
   const handleDownloadResume = () => {
     const link = document.createElement('a')
     link.href = '/Poojitha_Thikka_Resume.pdf'
-    link.download = 'Poojitha_Thikka_Resume.pdf'
-    link.click()
-  }
+          link.download = 'Poojitha_Thikka_Resume.pdf'
+          link.click()
+        }
 
-  const handleViewResume = () => {
-    window.open('/Poojitha_Thikka_Resume.pdf', '_blank')
+        const handleViewResume = () => {
+          window.open('/Poojitha_Thikka_Resume.pdf', '_blank')
   }
 
   return (
