@@ -12,7 +12,7 @@ import Education from '@/components/Education'
 import Certifications from '@/components/Certifications'
 import Contact from '@/components/Contact'
 import Footer from '@/components/Footer'
-import BackToTop from '@/components/BackToTop'
+
 import { ThemeProvider } from '@/contexts/ThemeContext'
 
 export default function Home() {
@@ -30,7 +30,7 @@ export default function Home() {
         <Certifications />
         <Contact />
         <Footer />
-        <BackToTop />
+
       </div>
     </ThemeProvider>
   )
