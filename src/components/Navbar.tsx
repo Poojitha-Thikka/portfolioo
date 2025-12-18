@@ -47,7 +47,6 @@ export default function Navbar() {
   }
 
   const handleDownloadResume = () => {
-    // Create a sample resume PDF or link to existing one
     const link = document.createElement('a')
     link.href = '/Poojitha_Thikka_Resume.pdf'
     link.download = 'Poojitha_Thikka_Resume.pdf'
