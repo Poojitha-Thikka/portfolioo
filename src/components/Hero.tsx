@@ -69,8 +69,8 @@ export default function Hero() {
           >
             <div className="relative inline-block">
               <div className="w-32 h-32 rounded-full bg-gradient-to-r from-blue-500 to-purple-600 p-1">
-                <div className="w-full h-full rounded-full bg-gray-200 dark:bg-gray-700 flex items-center justify-center">
-                  <div className="text-4xl font-bold text-gray-600 dark:text-gray-300">PT</div>
+                <div className="w-full h-full rounded-full bg-gray-200 dark:bg-gray-700 flex items-center justify-center overflow-hidden">
+                  <img src="/profile_picture.jpg" alt="Poojitha Thikka" className="w-full h-full object-cover" />
                 </div>
               </div>
               <div className="absolute -bottom-2 -right-2 w-8 h-8 bg-green-500 rounded-full border-4 border-white dark:border-gray-800"></div>
